@@ -1,3 +1,5 @@
 <template lang="pug">
-router-view
+a AAAAA
 </template>
+
+<script></script>
