@@ -6,21 +6,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "rimraf dist && vue-tsc --noEmit && vite-ssg build",
+    "build": "rimraf dist && vite-ssg build",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.ts,.vue ."
   },
   "dependencies": {
-    "@types/pug": "^2.0.6",
     "axios": "^1.1.3",
-    "path": "^0.12.7",
     "pinia": "^2.0.23",
-    "pug": "^3.0.2",
     "vue": "^3.2.37",
     "vue-router": "^4.1.5"
   },
   "devDependencies": {
     "@types/node": "^18.11.3",
+    "@types/pug": "^2.0.6",
     "@typescript-eslint/eslint-plugin": "^5.40.1",
     "@typescript-eslint/parser": "^5.40.1",
     "@unocss/core": "0.45.29",
@@ -30,11 +28,14 @@
     "@vitejs/plugin-legacy": "^2.2.0",
     "@vitejs/plugin-vue": "^3.1.0",
     "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "@volar/vue-language-plugin-pug": "^1.0.8",
     "@vue/runtime-core": "^3.2.41",
     "@vueuse/core": "^9.3.1",
     "@vueuse/head": "^0.9.8",
     "eslint": "^8.25.0",
     "eslint-plugin-vue": "^9.6.0",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
     "rimraf": "^3.0.2",
     "terser": "^5.15.1",
     "typescript": "^4.6.4",
