@@ -1,9 +1,9 @@
 {
-  "name": "@yesc/utils",
+  "name": "@yesc/typings",
   "private": true,
   "version": "0.0.1",
-  "type": "module",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -12,8 +12,5 @@
   "devDependencies": {
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
-  },
-  "dependencies": {
-    "@yesc/typings": "workspace:^0.0.1"
   }
 }

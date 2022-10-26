@@ -4,10 +4,10 @@ packages:
   # all packages in direct subdirs of packages/
   - 'projects/*'
   # all packages in subdirs of components/
-  - 'packages/components/**'
+  # - 'packages/components/**'
   # api base axios request
-  - 'packages/api/**'
+  # - 'packages/api/**'
   # all util in subdirs
-  - 'packages/units/**'
+  - 'packages/**'
   # exclude packages that are inside test directories
   - '!**/test/**'
